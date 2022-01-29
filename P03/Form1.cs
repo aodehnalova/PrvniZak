@@ -119,5 +119,10 @@ namespace P03
             int pocet = 0;
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int pocet = 0;
+        }
     }
 }
