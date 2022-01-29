@@ -94,12 +94,23 @@ namespace P03
         private void button2_Click(object sender, EventArgs e)
         {
             int n = Convert.ToInt32(textBox1.Lines[2]);
+            listBox2.Items.Clear();
             Random rnd = new Random();
+            double max1 = -2000;
+            double max2 = -2000;
             for (int i = 0; i<n; i++)
             {
                 double cislo = rnd.NextDouble() * 2000 - 1000;
-                listBox2.Items.Add(cislo);
+                listBox2.Items.Add(cislo.ToString("F2"));
+                if (cislo > max1)
+                {
+                    max2 = max1;
+                    max1 = cislo;
+                }
+                else if (cislo > max2 && cislo != max1) max2 = cislo;
             }
+            MessageBox.Show("Druhe max " + max2);
+
         }
     }
 }
