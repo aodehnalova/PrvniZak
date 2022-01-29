@@ -55,7 +55,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 148);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "24\r\n36\r\n5\r\n235\r\n47\r\n59\r\n72";
+            this.textBox1.Text = "24\r\n36\r\n10\r\n235\r\n47\r\n59\r\n72";
             // 
             // label1
             // 
@@ -82,7 +82,7 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(445, 32);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 148);
+            this.listBox1.Size = new System.Drawing.Size(133, 276);
             this.listBox1.TabIndex = 3;
             // 
             // panel1
@@ -207,6 +207,7 @@
             this.button2.TabIndex = 0;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 

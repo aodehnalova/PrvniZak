@@ -90,5 +90,16 @@ namespace P03
             }
             label1.Text = " Součet " + soucet + " Pocet " + pocet;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(textBox1.Lines[2]);
+            Random rnd = new Random();
+            for (int i = 0; i<n; i++)
+            {
+                double cislo = rnd.NextDouble() * 2000 - 1000;
+                listBox1.Items.Add(cislo);
+            }
+        }
     }
 }
