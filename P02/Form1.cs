@@ -16,5 +16,25 @@ namespace P02
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string pismena = "0123456789";
+            int i = 0;
+            foreach (Control ctrl in panel1.Controls)
+            {
+                if (ctrl is Button) (ctrl as Button).Text = pismena[i].ToString();
+                i++;
+            }
+        }
+
+     
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int  cifra = (sender as Button).Text[0] - 48;
+            string[] morseovka = { "-----", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "-----." };
+            textBox1.Text += morseovka[cifra]+" ";
+        }
     }
 }
