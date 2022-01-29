@@ -116,13 +116,13 @@ namespace P03
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int pocet = 0;
+        
 
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int pocet = 0;
+         
         }
     }
 }
