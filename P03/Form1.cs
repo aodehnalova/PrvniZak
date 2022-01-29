@@ -73,9 +73,6 @@ namespace P03
             {
                 int cislo = Convert.ToInt32(radek);
                 int c = cislo;
-                //
-                //
-                //
                 if (cislo % 2 != 0)
                 {
                     int cif = 0;
