@@ -63,5 +63,32 @@ namespace P03
             }
             MessageBox.Show("NSD je " + x+Environment.NewLine+"NSN je "+soucin/x);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //druhy
+            int soucet = 0;
+            int pocet = 0;
+            foreach (string radek in textBox1.Lines)
+            {
+                int cislo = Convert.ToInt32(radek);
+                int c = cislo;
+                if (cislo % 2 != 0)
+                {
+                    int cif = 0;
+                    while (c > 0)
+                    {
+                        cif += c % 10;
+                        c /= 10;
+                    }
+                    if (cif % 2 == 0)
+                    {
+                        soucet += cislo;
+                        pocet++;
+                    }
+                }
+            }
+            label1.Text = " Součet " + soucet + " Pocet " + pocet;
+        }
     }
 }
