@@ -98,8 +98,7 @@ namespace P03
             for (int i = 0; i<n; i++)
             {
                 double cislo = rnd.NextDouble() * 2000 - 1000;
-                listBox1.Items.Add(cislo);
-                //////
+                listBox2.Items.Add(cislo);
             }
         }
     }
