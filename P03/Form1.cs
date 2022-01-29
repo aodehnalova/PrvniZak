@@ -53,7 +53,15 @@ namespace P03
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            int x = Convert.ToInt32(textBox1.Lines[0]);
+            int y = Convert.ToInt32(textBox1.Lines[1]);
+            int soucin = x * y;
+            while (x != y)
+            {
+                if (x > y) x -= y;
+                else y -= x;
+            }
+            MessageBox.Show("NSD je " + x+Environment.NewLine+"NSN je "+soucin/x);
         }
     }
 }
