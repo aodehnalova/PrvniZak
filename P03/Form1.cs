@@ -114,15 +114,6 @@ namespace P03
             MessageBox.Show("NSD je " + x + Environment.NewLine + "NSN je " + soucin / x);
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-        
 
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-         
-        }
     }
 }
