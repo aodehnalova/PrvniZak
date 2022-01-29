@@ -56,7 +56,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 148);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "36\r\n24\r\n8\r\n10\r\n235\r\n47\r\n59\r\n72";
             // 
             // label1
             // 
@@ -189,7 +188,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 2;
-            this.button4.Text = "button4";
+            this.button4.Text = "button2";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -209,7 +208,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
+            this.button2.Text = "button4";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
