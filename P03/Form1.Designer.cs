@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -45,7 +46,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +56,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 148);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "24\r\n36\r\n8\r\n10\r\n235\r\n47\r\n59\r\n72";
+            this.textBox1.Text = "36\r\n24\r\n8\r\n10\r\n235\r\n47\r\n59\r\n72";
             // 
             // label1
             // 
@@ -105,6 +105,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(370, 212);
             this.panel1.TabIndex = 4;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Enabled = false;
+            this.radioButton4.Location = new System.Drawing.Point(254, 143);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(110, 21);
+            this.radioButton4.TabIndex = 12;
+            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -210,17 +221,6 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Enabled = false;
-            this.radioButton4.Location = new System.Drawing.Point(254, 143);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(110, 21);
-            this.radioButton4.TabIndex = 12;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
