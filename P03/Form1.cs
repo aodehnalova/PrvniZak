@@ -99,7 +99,7 @@ namespace P03
             {
                 double cislo = rnd.NextDouble() * 2000 - 1000;
                 listBox1.Items.Add(cislo);
-                //
+                ////
             }
         }
     }
