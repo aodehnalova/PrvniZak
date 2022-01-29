@@ -82,7 +82,7 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(445, 32);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(133, 276);
+            this.listBox1.Size = new System.Drawing.Size(133, 196);
             this.listBox1.TabIndex = 3;
             // 
             // panel1
