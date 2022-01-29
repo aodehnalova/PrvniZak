@@ -89,6 +89,11 @@ namespace P03
                 }
             }
             label1.Text = " Součet " + soucet + " Pocet " + pocet;
+            ///
+            ///
+            ///
+            ///
+            ///
         }
 
         private void button2_Click(object sender, EventArgs e)
