@@ -55,7 +55,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 148);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "24\r\n36\r\n10\r\n235\r\n47\r\n59\r\n72";
+            this.textBox1.Text = "24\r\n36\r\n8\r\n10\r\n235\r\n47\r\n59\r\n72";
             // 
             // label1
             // 
